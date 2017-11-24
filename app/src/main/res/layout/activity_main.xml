@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:id="@+id/recommend_info"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.open.androidtvwidget.view.SmoothHorizontalScrollView
+            android:id="@+id/test_hscroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <com.open.androidtvwidget.view.FrameMainLayout
+                android:id="@+id/page1_main_lay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true">
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView1"
+                    app:isShape="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="240dp"
+                    android:layout_height="145dp"
+                    android:layout_marginTop="165dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="#11ADFF">
+                    <ImageView
+                        android:id="@+id/type_bg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"/>
+
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView2"
+                    app:isShape="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="240dp"
+                    android:layout_height="145dp"
+                    android:layout_marginTop="320dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="#11ADFF">
+                    <ImageView
+                        android:id="@+id/type_bg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"/>
+
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView3"
+                    app:isShape="true"
+                    app:isReflect="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="240dp"
+                    android:layout_height="145dp"
+                    android:layout_marginTop="475dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="#11ADFF">
+                    <ImageView
+                        android:id="@+id/type_bg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"/>
+
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView4"
+                    app:isShape="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="489dp"
+                    android:layout_height="279dp"
+                    android:layout_marginLeft="288dp"
+                    android:layout_marginTop="163dp"
+                    android:background="#11ADFF">
+
+                    <ImageView
+                        android:id="@+id/card_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView5"
+                    app:isShape="true"
+                    app:isReflect="true"
+                    android:focusable="true"
+                    android:layout_width="485dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="450dp"
+                    android:background="#11ADFF">
+                    <ImageView
+                        android:id="@+id/card_img1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView6"
+                    app:isShape="true"
+                    android:focusable="true"
+                    android:nextFocusUp="@+id/title_bar1"
+                    android:layout_width="225dp"
+                    android:layout_height="275dp"
+                    android:layout_marginLeft="785dp"
+                    android:layout_marginTop="165dp"
+                    android:background="#11ADFF">
+                    <ImageView
+                        android:id="@+id/card_img2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView7"
+                    app:isShape="true"
+                    android:focusable="true"
+                    android:nextFocusUp="@+id/title_bar1"
+                    android:layout_width="220dp"
+                    android:layout_height="175dp"
+                    android:layout_marginLeft="1020dp"
+                    android:layout_marginTop="165dp"
+                    android:background="#11ADFF">
+                    <ImageView
+                        android:id="@+id/card_img3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView8"
+                    app:isShape="true"
+                    app:isReflect="true"
+                    android:focusable="true"
+                    android:layout_width="225dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="785dp"
+                    android:layout_marginTop="450dp"
+                    android:background="#11ADFF">
+
+                    <ImageView
+                        android:id="@+id/card_img4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+                <com.open.androidtvwidget.view.ReflectItemView
+                    android:id="@+id/cardView9"
+                    app:isShape="true"
+                    app:isReflect="true"
+                    android:focusable="true"
+                    android:layout_width="220dp"
+                    android:layout_height="270dp"
+                    android:layout_marginLeft="1020dp"
+                    android:layout_marginTop="350dp"
+                    android:background="#11ADFF">
+                    <ImageView
+                        android:id="@+id/card_img5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </com.open.androidtvwidget.view.ReflectItemView>
+
+            </com.open.androidtvwidget.view.FrameMainLayout>
+        </com.open.androidtvwidget.view.SmoothHorizontalScrollView>
+
+    </RelativeLayout>
+
+    <com.open.androidtvwidget.view.MainUpView
+        android:id="@+id/mainUpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
