@@ -10,10 +10,10 @@ import com.open.androidtvwidget.ui.MainUpViewActivity;
 
 public class Example1Activity extends MainUpViewActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        init(R.drawable.white_light,12,12,12,12);
     }
 }

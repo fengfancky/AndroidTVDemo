@@ -32,6 +32,8 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
-    compile(name: 'androidtvwidget-release', ext: 'aar')
+//    compile(name: 'androidtvwidget-release', ext: 'aar')
     compile 'com.jakewharton:butterknife:7.0.1'
+    compile project(':androidtvwidget')
+
 }
