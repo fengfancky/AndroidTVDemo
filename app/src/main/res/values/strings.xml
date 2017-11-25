@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidTVDemo</string>
+    <string name="exam">示例</string>
+
 </resources>

@@ -1,15 +1,13 @@
 package cn.cbg.androidtvdemo;
 
 import android.graphics.RectF;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewTreeObserver;
 
 import com.open.androidtvwidget.bridge.EffectNoDrawBridge;
 import com.open.androidtvwidget.view.MainUpView;
 import com.open.androidtvwidget.view.ReflectItemView;
-import com.open.androidtvwidget.view.TextViewWithTTF;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
