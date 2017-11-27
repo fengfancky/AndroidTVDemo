@@ -45,12 +45,15 @@ public abstract class BaseFragment extends Fragment implements  RecyclerViewTV.O
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(getLayout(),null);
         initView(view);
+        loadData();
         return view;
     }
 
     public abstract int getLayout();
 
     public abstract void initView(View view);
+
+    public abstract void loadData();
 
     public abstract void onItemClick(View itemView,int position);
 

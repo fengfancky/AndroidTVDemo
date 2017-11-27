@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.open.androidtvwidget.leanback.recycle.RecyclerViewTV
+        android:id="@+id/recycler"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.open.androidtvwidget.leanback.recycle.RecyclerViewTV>
+
+    <com.open.androidtvwidget.view.MainUpView
+        android:id="@+id/mainUpView"
+        android:layout_width="1dp"
+        android:layout_height="1dp"/>
+
+</FrameLayout>

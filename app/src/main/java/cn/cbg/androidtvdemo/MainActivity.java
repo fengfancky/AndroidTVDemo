@@ -71,12 +71,15 @@ public class MainActivity extends AppCompatActivity implements View.OnFocusChang
         if (hasFocus) {
             mOldView = v;
             mEffectNoDrawBridge.setVisibleWidget(false);
+
+
             //可以对某个view进行特殊处理
 //            if (v.getId()==R.id.card_img) {
 //                mEffectNoDrawBridge.setFocusView(v, 1.05f);
 //            } else {
 //                mEffectNoDrawBridge.setFocusView(v, 1.15f);
 //            }
+
             mEffectNoDrawBridge.setFocusView(v, 1.15f);
             v.bringToFront();
         } else {
